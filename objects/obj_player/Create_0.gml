@@ -29,6 +29,24 @@ movement = function(){
 };
 
 collision = function(){
-	x += hor_speed;
-	y += ver_speed;
+	for(var i = 0, s = array_length(global.tagged_as_solid); i < s; i++){
+		var _obj = global.tagged_as_solid[i];
+		if(place_meeting(x+hor_speed, y, _obj)){
+			var _col = instance_place(x+hor_speed, y, _obj);
+			if(_col){
+				x = hor_speed > 0 ? _col.bbox_left+(x-bbox_right) : _col.bbox_right+(x-bbox_left);
+				hor_speed = 0;
+			}
+		}
+		x += hor_speed;
+	
+		if(place_meeting(x, y+ver_speed, _obj)){
+			var _col = instance_place(x, y+ver_speed, _obj);
+			if(_col){
+				y = ver_speed > 0 ? _col.bbox_top+(y-bbox_bottom) : _col.bbox_bottom+(y-bbox_top);
+				ver_speed = 0;
+			}
+		}
+		y += ver_speed;
+	}
 };

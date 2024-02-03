@@ -18,8 +18,10 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"Controllers","order":2,"path":"folders/Objects/Controllers.yy",},
     {"name":"Entities","order":3,"path":"folders/Objects/Entities.yy",},
+    {"name":"Collisor","order":4,"path":"folders/Objects/Collisor.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_solid","order":1,"path":"sprites/spr_solid/spr_solid.yy",},
     {"name":"obj_transition","order":1,"path":"objects/obj_transition/obj_transition.yy",},
     {"name":"Outline Documentation","order":2,"path":"notes/Outline Documentation/Outline Documentation.yy",},
     {"name":"init","order":1,"path":"scripts/init/init.yy",},

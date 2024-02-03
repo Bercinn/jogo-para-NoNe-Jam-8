@@ -29,6 +29,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Controllers","folderPath":"folders/Objects/Controllers.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Entities","folderPath":"folders/Objects/Entities.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Collisor","folderPath":"folders/Objects/Collisor.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -38,6 +39,7 @@
   },
   "resources": [
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
     {"id":{"name":"Outline Documentation","path":"notes/Outline Documentation/Outline Documentation.yy",},},
     {"id":{"name":"init","path":"scripts/init/init.yy",},},
@@ -45,6 +47,7 @@
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"fnt_menu_button","path":"fonts/fnt_menu_button/fnt_menu_button.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"transition","path":"scripts/transition/transition.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},

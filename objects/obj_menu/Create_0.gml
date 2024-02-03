@@ -35,10 +35,12 @@ draw_menu = function(){
 			if(mouse_check_button_pressed(mb_left)){
 				switch(button_ops[i]){
 					case button_ops[0]:
+						op_scale[0] = _default_scl;
 						transition(rm_game, room_speed);
 					break;
 					
 					case button_ops[1]:
+						op_scale[1] = _default_scl;
 						game_end();
 					break;
 				}
