@@ -28,6 +28,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Controllers","folderPath":"folders/Objects/Controllers.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Entities","folderPath":"folders/Objects/Entities.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -36,6 +37,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
     {"id":{"name":"Outline Documentation","path":"notes/Outline Documentation/Outline Documentation.yy",},},
     {"id":{"name":"init","path":"scripts/init/init.yy",},},
@@ -48,6 +50,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"__shd_outline","path":"shaders/__shd_outline/__shd_outline.yy",},},
     {"id":{"name":"__scr_outline","path":"scripts/__scr_outline/__scr_outline.yy",},},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
   ],

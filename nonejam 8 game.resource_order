@@ -17,6 +17,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"Controllers","order":2,"path":"folders/Objects/Controllers.yy",},
+    {"name":"Entities","order":3,"path":"folders/Objects/Entities.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_transition","order":1,"path":"objects/obj_transition/obj_transition.yy",},
