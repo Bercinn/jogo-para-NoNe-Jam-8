@@ -22,6 +22,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_player3","order":2,"path":"sprites/spr_player3/spr_player3.yy",},
     {"name":"spr_solid","order":1,"path":"sprites/spr_solid/spr_solid.yy",},
     {"name":"obj_transition","order":1,"path":"objects/obj_transition/obj_transition.yy",},
     {"name":"Outline Documentation","order":2,"path":"notes/Outline Documentation/Outline Documentation.yy",},
