@@ -48,10 +48,10 @@ draw_menu = function(){
 		}else{
 			op_scale[i] = lerp(op_scale[i], _default_scl, .15);
 		}
-		outline_draw_text_transformed_color(_gui_w/2, _gui_h/2+_hstr*i, button_ops[i], op_scale[i], op_scale[i], 0, c_yellow,,,,1,ol_config(3,c_black,,1,,,));
+		outline_draw_text_transformed_color(_gui_w/2, _gui_h/2+_hstr*i, button_ops[i], op_scale[i], op_scale[i], 0, c_white,,,,1,ol_config(3,c_black,,1,,,));
 	}
 	
-	outline_draw_text_transformed_color(_gui_w/2, 50, "NoNe Jam 8", 2, 2, 0,c_fuchsia,,,,1,ol_config(3,c_black,,1,,,));
+	outline_draw_text_transformed_color(_gui_w/2, 50+sin_wave(2,5,1), "Rule Breaker", 1.7, 1.7, sin_wave(1,1,1),c_black,,,,1,ol_config(3,c_white,,1,,,));
 	
 	draw_set_font(-1);
 	draw_set_valign(-1);

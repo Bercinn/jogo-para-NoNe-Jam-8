@@ -1,4 +1,3 @@
-function vec2(_x, _y) constructor{
-	x = _x;
-	y = _y;
+function sin_wave(spd, height, modify = 0) {
+    return dsin(((current_time/10)*spd)+modify)*height
 }
