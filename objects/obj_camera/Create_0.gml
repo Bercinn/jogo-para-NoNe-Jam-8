@@ -1,7 +1,7 @@
 cam = view_camera[0];
 
-cam_x = 0;
-cam_y = 0;
+//cam_x = 0;
+//cam_y = 0;
 
 scl = {
 	cam : 3,
