@@ -6,6 +6,7 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Collisor","order":4,"path":"folders/Objects/Collisor.yy",},
+    {"name":"Controller","order":5,"path":"folders/Objects/Controller.yy",},
     {"name":"Controllers","order":2,"path":"folders/Objects/Controllers.yy",},
     {"name":"Entities","order":3,"path":"folders/Objects/Entities.yy",},
     {"name":"Outline System","order":16,"path":"folders/Outline System.yy",},
@@ -19,7 +20,6 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Controller","order":5,"path":"folders/Objects/Controller.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_solid","order":1,"path":"sprites/spr_solid/spr_solid.yy",},
