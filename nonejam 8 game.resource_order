@@ -25,6 +25,7 @@
   "ResourceOrderSettings": [
     {"name":"spr_solid","order":1,"path":"sprites/spr_solid/spr_solid.yy",},
     {"name":"obj_transition","order":1,"path":"objects/obj_transition/obj_transition.yy",},
+    {"name":"fnt_menu_button2","order":1,"path":"fonts/fnt_menu_button2/fnt_menu_button2.yy",},
     {"name":"Outline Documentation","order":2,"path":"notes/Outline Documentation/Outline Documentation.yy",},
     {"name":"init","order":1,"path":"scripts/init/init.yy",},
     {"name":"obj_controller","order":2,"path":"objects/obj_controller/obj_controller.yy",},

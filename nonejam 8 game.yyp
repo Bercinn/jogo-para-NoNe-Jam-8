@@ -44,6 +44,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
+    {"id":{"name":"fnt_menu_button2","path":"fonts/fnt_menu_button2/fnt_menu_button2.yy",},},
     {"id":{"name":"Outline Documentation","path":"notes/Outline Documentation/Outline Documentation.yy",},},
     {"id":{"name":"init","path":"scripts/init/init.yy",},},
     {"id":{"name":"general_stuff","path":"scripts/general_stuff/general_stuff.yy",},},
@@ -70,9 +71,9 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
-    {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "templateType": "game",
