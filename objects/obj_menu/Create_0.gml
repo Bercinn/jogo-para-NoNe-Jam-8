@@ -63,7 +63,7 @@ draw_menu = function(){
 	draw_set_valign(1);
 	draw_set_halign(0);
 	
-	outline_draw_text_transformed(20, _gui_h-string_height("I")-2, "© Mine Play Studio", 1.2, 1.2, 0, ol_config(2,c_white,,1,,,1));
+	outline_draw_text_transformed(20, _gui_h-string_height("I")-2, "© Mine Play Studio", .7, .7, 0, ol_config(2,c_white,,1,,,1));
 	
 	draw_set_color(-1);
 	
