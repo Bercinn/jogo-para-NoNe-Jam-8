@@ -53,11 +53,19 @@ draw_menu = function(){
 		}else{
 			op_scale[i] = lerp(op_scale[i], _default_scl, .15);
 		}
-		outline_draw_text_transformed_color(_gui_w/2, _gui_h/2+_hstr*i, button_ops[i], op_scale[i], op_scale[i], 0, c_white,,,,1,ol_config(3,c_black,,1,,,));
+		outline_draw_text_transformed_color(_gui_w/2, _gui_h/2+_hstr*i, button_ops[i], op_scale[i], op_scale[i], 0, c_black,,,,1,ol_config(3,c_white,,1,,,));
 	}
 	
-	outline_draw_text_transformed_color(_gui_w/2, 50+sin_wave(2,5,1), "Kipon", 2.7, 2.7, sin_wave(1,1,1),c_black,,,,1,ol_config(3,c_white,,1,,,));
+	draw_set_color(c_black);
+	
+	outline_draw_text_transformed(_gui_w/2, 50+sin_wave(2,5,1), "Kipon", 2.7, 2.7, sin_wave(1,1,1),ol_config(3,c_white,,1,,,));
+	
+	draw_set_valign(1);
+	draw_set_halign(0);
+	
 	outline_draw_text_transformed(20, _gui_h-string_height("I")-2, "© Mine Play Studio", 1.2, 1.2, 0, ol_config(2,c_white,,1,,,1));
+	
+	draw_set_color(-1);
 	
 	draw_set_font(-1);
 	draw_set_valign(-1);
