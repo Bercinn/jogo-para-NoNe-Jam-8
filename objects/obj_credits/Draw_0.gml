@@ -44,4 +44,3 @@ draw_set_font(fnt_credits_2);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_sprite_ext(spr_logoima, image_index, x - 130, y + 410, .65, .65, 0, c_white, 1);
-
