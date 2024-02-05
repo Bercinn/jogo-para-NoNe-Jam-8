@@ -62,7 +62,6 @@
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"spr_colisor","path":"sprites/spr_colisor/spr_colisor.yy",},},
-    {"id":{"name":"obj_subtitle","path":"objects/obj_subtitle/obj_subtitle.yy",},},
     {"id":{"name":"spr_logoima","path":"sprites/spr_logoima/spr_logoima.yy",},},
     {"id":{"name":"obj_colisor1","path":"objects/obj_colisor1/obj_colisor1.yy",},},
     {"id":{"name":"transition","path":"scripts/transition/transition.yy",},},

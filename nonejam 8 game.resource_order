@@ -35,7 +35,6 @@
     {"name":"fnt_credits_2","order":2,"path":"fonts/fnt_credits_2/fnt_credits_2.yy",},
     {"name":"rm_intro","order":11,"path":"rooms/rm_intro/rm_intro.yy",},
     {"name":"spr_colisor","order":1,"path":"sprites/spr_colisor/spr_colisor.yy",},
-    {"name":"obj_subtitle","order":4,"path":"objects/obj_subtitle/obj_subtitle.yy",},
     {"name":"spr_logoima","order":2,"path":"sprites/spr_logoima/spr_logoima.yy",},
     {"name":"obj_colisor1","order":2,"path":"objects/obj_colisor1/obj_colisor1.yy",},
     {"name":"transition","order":2,"path":"scripts/transition/transition.yy",},

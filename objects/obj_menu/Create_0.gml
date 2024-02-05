@@ -36,7 +36,7 @@ draw_menu = function(){
 				switch(button_ops[i]){
 					case button_ops[0]:
 						op_scale[0] = _default_scl;
-						transition(rm_game, room_speed);
+						transition(rm_game, 0);
 					break;
 					
 					case button_ops[1]:
@@ -45,7 +45,7 @@ draw_menu = function(){
 					break;
 					
 					case button_ops[2]:
-						op_scale[1] = _default_scl;
+						op_scale[2] = _default_scl;
 						game_end();
 					break;
 				}
@@ -57,6 +57,7 @@ draw_menu = function(){
 	}
 	
 	outline_draw_text_transformed_color(_gui_w/2, 50+sin_wave(2,5,1), "Kipon", 2.7, 2.7, sin_wave(1,1,1),c_black,,,,1,ol_config(3,c_white,,1,,,));
+	outline_draw_text_transformed(20, _gui_h-string_height("I")-2, "© Mine Play Studio", 1.2, 1.2, 0, ol_config(2,c_white,,1,,,1));
 	
 	draw_set_font(-1);
 	draw_set_valign(-1);
