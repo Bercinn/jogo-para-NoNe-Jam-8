@@ -61,6 +61,7 @@
     {"id":{"name":"fnt_credits_2","path":"fonts/fnt_credits_2/fnt_credits_2.yy",},},
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
+    {"id":{"name":"spr_colisor5","path":"sprites/spr_colisor5/spr_colisor5.yy",},},
     {"id":{"name":"spr_colisor","path":"sprites/spr_colisor/spr_colisor.yy",},},
     {"id":{"name":"obj_subtitle","path":"objects/obj_subtitle/obj_subtitle.yy",},},
     {"id":{"name":"spr_logoima","path":"sprites/spr_logoima/spr_logoima.yy",},},

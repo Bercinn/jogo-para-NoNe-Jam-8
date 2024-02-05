@@ -36,6 +36,7 @@
     {"name":"obj_logo2","order":3,"path":"objects/obj_logo2/obj_logo2.yy",},
     {"name":"fnt_credits_2","order":2,"path":"fonts/fnt_credits_2/fnt_credits_2.yy",},
     {"name":"rm_intro","order":11,"path":"rooms/rm_intro/rm_intro.yy",},
+    {"name":"spr_colisor5","order":4,"path":"sprites/spr_colisor5/spr_colisor5.yy",},
     {"name":"spr_colisor","order":2,"path":"sprites/spr_colisor/spr_colisor.yy",},
     {"name":"obj_subtitle","order":4,"path":"objects/obj_subtitle/obj_subtitle.yy",},
     {"name":"spr_logoima","order":3,"path":"sprites/spr_logoima/spr_logoima.yy",},
