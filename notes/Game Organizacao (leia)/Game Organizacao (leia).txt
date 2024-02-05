@@ -7,6 +7,9 @@ Corrigir Bugs - Feito
 
 Tela Jogo (Gameplay)
 
+dialogos (com a historia do protagonista) - 
+ou cutcene - 
+
 Personagem (seguir a orgdem) :
 
 Personagem andando - Feito
