@@ -1,5 +1,6 @@
 button_ops = [
 	"Jogar",
+	"Options",
 	"Sair",
 ];
 
@@ -7,7 +8,6 @@ op_len = array_length(button_ops);
 
 op_scale[op_len-1] = 0;
 
-layer_background_blend(layer_get_id("Background"), c_blue);
 
 draw_menu = function(){
 	draw_set_font(fnt_menu_button);
@@ -41,6 +41,11 @@ draw_menu = function(){
 					
 					case button_ops[1]:
 						op_scale[1] = _default_scl;
+						room_goto(rm_credits);
+					break;
+					
+					case button_ops[2]:
+						op_scale[1] = _default_scl;
 						game_end();
 					break;
 				}
@@ -51,7 +56,7 @@ draw_menu = function(){
 		outline_draw_text_transformed_color(_gui_w/2, _gui_h/2+_hstr*i, button_ops[i], op_scale[i], op_scale[i], 0, c_white,,,,1,ol_config(3,c_black,,1,,,));
 	}
 	
-	outline_draw_text_transformed_color(_gui_w/2, 50+sin_wave(2,5,1), "Rule Breaker", 1.7, 1.7, sin_wave(1,1,1),c_black,,,,1,ol_config(3,c_white,,1,,,));
+	outline_draw_text_transformed_color(_gui_w/2, 50+sin_wave(2,5,1), "Kipon", 2.7, 2.7, sin_wave(1,1,1),c_black,,,,1,ol_config(3,c_white,,1,,,));
 	
 	draw_set_font(-1);
 	draw_set_valign(-1);
