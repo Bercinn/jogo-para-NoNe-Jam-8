@@ -13,7 +13,6 @@ ou cutcene -
 Personagem (seguir a orgdem) :
 
 Personagem andando - Feito
-Pulando - Feito
 Arrumar Sprites - 
 Animar - 
 Atacar (se tiver) - 
