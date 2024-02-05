@@ -1,6 +1,9 @@
 hor_speed = 0;
 ver_speed = 0;
-//move_speed = 2;
+
+esq = 0;
+dir = 0;
+move_speed = 3;
 
 on_ground = 0;
 jump_strength = 7;
@@ -20,6 +23,14 @@ movement = function(){
 	}else{
 		ver_speed += GRAV;
 	}
+	
+	//movimento na horizontal
+	esq = keyboard_check(ord("D"));
+	dir = keyboard_check(ord("A"));
+	///////////////
+	
+	hor_speed = (esq - dir) * move_speed; 
+	
 };
 
 collision = function(){

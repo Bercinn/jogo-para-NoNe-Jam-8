@@ -1,6 +1,6 @@
 button_ops = [
 	"Jogar",
-	"Options",
+	"Credits",
 	"Sair",
 ];
 
