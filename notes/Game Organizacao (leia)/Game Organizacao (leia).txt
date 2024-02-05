@@ -1,0 +1,31 @@
+Tela Inicial - Concluida
+
+Menu Com botões - Feito
+Botão Options - Feito
+Mine Play Studio Title - feito
+Corrigir Bugs - Feito
+
+Tela Jogo (Gameplay)
+
+Personagem (seguir a orgdem) :
+
+Personagem andando - Feito
+Pulando - Feito
+Arrumar Sprites - 
+Animar - 
+Atacar (se tiver) - 
+Corrigir Bugs - 
+
+Inimigos (Bosses):
+Criar Obj - 
+Programar Boss 1 (e todos os outros) - 
+Arrumar Sprite - 
+Corrigir Bugs - 
+
+
+Tela Final (ou fim)
+
+Cutcene final - 
+mostrar acontecimentos (como a historia termina) - 
+analisar e arrumar bugs (em geral) - 
+Colocar Pra testes - 

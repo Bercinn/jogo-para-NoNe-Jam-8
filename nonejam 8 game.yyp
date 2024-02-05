@@ -45,6 +45,7 @@
   "resources": [
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"fnt_credts","path":"fonts/fnt_credts/fnt_credts.yy",},},
+    {"id":{"name":"Game Organizacao (leia)","path":"notes/Game Organizacao (leia)/Game Organizacao (leia).yy",},},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
     {"id":{"name":"Outline Documentation","path":"notes/Outline Documentation/Outline Documentation.yy",},},

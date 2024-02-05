@@ -1,9 +1,11 @@
 hor_speed = 0;
 ver_speed = 0;
 
-esq = 0;
-dir = 0;
-move_speed = 3;
+//variaveis de movimento
+esq = 0; //direções
+dir = 0; //direções
+move_speed = 3; //velocidade do player
+//////
 
 on_ground = 0;
 jump_strength = 7;
@@ -27,10 +29,9 @@ movement = function(){
 	//movimento na horizontal
 	esq = keyboard_check(ord("D"));
 	dir = keyboard_check(ord("A"));
-	///////////////
 	
 	hor_speed = (esq - dir) * move_speed; 
-	
+		///////////////
 };
 
 collision = function(){
