@@ -73,7 +73,6 @@
     {"id":{"name":"tl_teste","path":"timelines/tl_teste/tl_teste.yy",},},
     {"id":{"name":"tl_credits","path":"timelines/tl_credits/tl_credits.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
-    {"id":{"name":"Note3","path":"notes/Note3/Note3.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},

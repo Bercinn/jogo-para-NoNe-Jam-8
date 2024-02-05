@@ -43,7 +43,6 @@
     {"name":"transition","order":2,"path":"scripts/transition/transition.yy",},
     {"name":"obj_camera","order":3,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"__shd_outline","order":1,"path":"shaders/__shd_outline/__shd_outline.yy",},
-    {"name":"Note3","order":1,"path":"notes/Note3/Note3.yy",},
     {"name":"rm_init","order":2,"path":"rooms/rm_init/rm_init.yy",},
     {"name":"rm_credits","order":12,"path":"rooms/rm_credits/rm_credits.yy",},
   ],
