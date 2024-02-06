@@ -7,39 +7,47 @@ baixo = 0; //direções
 esq = 0; //direções
 dir = 0; //direções
 move_speed = 3; //velocidade do player
-//////
 
-on_ground = 0;
-jump_strength = 7;
-
-//input_update = function(){
-	//inputs = {
-	///	jump : keyboard_check_pressed(vk_space),
-	//};
-	//on_ground = place_meeting(x, y+max(ver_speed, 1), obj_solid);
-//};
+center_y = y - sprite_height/2;
 
 movement = function(){
-	//if(on_ground){
-		//if(inputs.jump){
-		//	ver_speed = -jump_strength;
-		//}
-	//}else{
-		//ver_speed += GRAV;
-	//}
+	attack_dir = point_direction(x, center_y, mouse_x, mouse_y);
 	
 	//movimento na horizontal
 	esq = keyboard_check(ord("D"));
 	dir = keyboard_check(ord("A"));
 	cima = keyboard_check(ord("W"));
 	baixo = keyboard_check(ord("S"));
+	attack = mouse_check_button_pressed(mb_left);
 	
 	hor_speed = (esq - dir) * move_speed; 
 	ver_speed = (baixo - cima) * move_speed;
 		///////////////
+		
+	attack_func();
+};
+
+attack_delay = 0;
+attack_dir = 0;
+attack_func = function(){
+	attack_delay--;
+	if(attack_delay <= 0){
+		if(attack){
+			var _hitbox = instance_create_depth(x+lengthdir_x(sprite_width, attack_dir), center_y+lengthdir_y(sprite_width, attack_dir), depth-1, obj_hitbox);
+			_hitbox.dad = self;
+			attack_delay = room_speed/2;
+		}
+	}
 };
 
 collision = function(){
+	if(place_meeting(x+hor_speed, y, obj_solid)){
+		var _col = instance_place(x+hor_speed, y, obj_solid);
+		if(_col){
+			x = hor_speed > 0 ? _col.bbox_left+(x-bbox_right) : _col.bbox_right+(x-bbox_left);
+			hor_speed = 0;
+		}
+	}
 	x += hor_speed;
 	if(place_meeting(x, y+ver_speed, obj_solid)){
 		var _col = instance_place(x, y+ver_speed, obj_solid);
