@@ -2,7 +2,7 @@
 #macro mouse_gui_y device_mouse_y_to_gui(0)
 #macro TAG_SOLID "solid"
 
-#macro GRAV .3
+//#macro GRAV .3
 
 asset_add_tags(obj_solid, TAG_SOLID, asset_object);
 
