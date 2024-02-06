@@ -51,7 +51,7 @@ with(weapon_my)
 	}
 	 }
     }
-}
+};
 	
 
 
@@ -73,3 +73,20 @@ collision = function(){
 	}
 	y += ver_speed;
 };
+//variavel de controle de leveis
+global._leveis = 0;
+
+//sistema de power up
+leveis = function(){
+
+//sistema de leveis incompleto
+	switch(global._leveis)
+	{
+      case 1:
+	  show_message("Level 1");
+	  break;
+	  case 2:
+	  show_message("Level 2");
+	  break;
+	}
+}

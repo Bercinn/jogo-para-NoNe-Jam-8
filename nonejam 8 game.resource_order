@@ -33,7 +33,6 @@
     {"name":"Outline Documentation","order":2,"path":"notes/Outline Documentation/Outline Documentation.yy",},
     {"name":"init","order":1,"path":"scripts/init/init.yy",},
     {"name":"obj_controller","order":2,"path":"objects/obj_controller/obj_controller.yy",},
-    {"name":"rm_historia","order":1,"path":"rooms/rm_historia/rm_historia.yy",},
     {"name":"obj_colisor","order":1,"path":"objects/obj_colisor/obj_colisor.yy",},
     {"name":"obj_historia","order":4,"path":"objects/obj_historia/obj_historia.yy",},
     {"name":"obj_logo2","order":3,"path":"objects/obj_logo2/obj_logo2.yy",},
