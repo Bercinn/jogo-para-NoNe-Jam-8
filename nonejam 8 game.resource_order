@@ -25,7 +25,9 @@
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_bg_1","order":7,"path":"sprites/spr_bg_1/spr_bg_1.yy",},
     {"name":"fnt_credts","order":1,"path":"fonts/fnt_credts/fnt_credts.yy",},
+    {"name":"spr_bg","order":6,"path":"sprites/spr_bg/spr_bg.yy",},
     {"name":"obj_arma","order":1,"path":"objects/obj_arma/obj_arma.yy",},
     {"name":"obj_transition","order":1,"path":"objects/obj_transition/obj_transition.yy",},
     {"name":"Outline Documentation","order":2,"path":"notes/Outline Documentation/Outline Documentation.yy",},
@@ -44,6 +46,7 @@
     {"name":"rm_game","order":13,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"obj_colisor1","order":2,"path":"objects/obj_colisor1/obj_colisor1.yy",},
     {"name":"transition","order":2,"path":"scripts/transition/transition.yy",},
+    {"name":"sq_transicao1","order":1,"path":"sequences/sq_transicao1/sq_transicao1.yy",},
     {"name":"obj_camera","order":3,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"__shd_outline","order":1,"path":"shaders/__shd_outline/__shd_outline.yy",},
     {"name":"spr_player","order":3,"path":"sprites/spr_player/spr_player.yy",},

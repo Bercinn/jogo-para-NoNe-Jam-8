@@ -6,6 +6,6 @@ var _default_scl = 1;
 timeline_running = tl_credits;
 timeline_index = 1;
 
-alarm[0] =  290;
+alarm[0] =  480;
 
 
