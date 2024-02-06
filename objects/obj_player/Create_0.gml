@@ -23,19 +23,23 @@ movement = function(){
 	hor_speed = (esq - dir) * move_speed; 
 	ver_speed = (baixo - cima) * move_speed;
 		///////////////
-		
 	attack_func();
 };
 
 attack_delay = 0;
 attack_dir = 0;
 attack_func = function(){
-	attack_delay--;
+	//attack_delay--;
 	if(attack_delay <= 0){
 		if(attack){
-			var _hitbox = instance_create_depth(x+lengthdir_x(sprite_width, attack_dir), center_y+lengthdir_y(sprite_width, attack_dir), depth-1, obj_hitbox);
-			_hitbox.dad = self;
-			attack_delay = room_speed/2;
+			
+			var _tirosx = x + lengthdir_x(16, attack_dir);
+			var _tirosy = y + lengthdir_y(16, attack_dir);
+			
+			var _tiros = point_direction(x, y, mouse_x, mouse_y);
+			image_angle = _tiros;
+			  instance_create_layer(_tirosx, _tirosy, "instances", obj_tiro);
+			//attack_delay = room_speed/2;
 		}
 	}
 };

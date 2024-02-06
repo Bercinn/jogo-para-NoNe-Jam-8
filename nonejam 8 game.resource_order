@@ -22,6 +22,7 @@
     {"name":"Shaders","order":5,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
+    {"name":"Projeteis","order":7,"path":"folders/Objects/Projeteis.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"fnt_credts","order":1,"path":"fonts/fnt_credts/fnt_credts.yy",},
@@ -37,6 +38,7 @@
     {"name":"fnt_credits_2","order":2,"path":"fonts/fnt_credits_2/fnt_credits_2.yy",},
     {"name":"rm_intro","order":11,"path":"rooms/rm_intro/rm_intro.yy",},
     {"name":"spr_colisor","order":1,"path":"sprites/spr_colisor/spr_colisor.yy",},
+    {"name":"spr_tiro","order":5,"path":"sprites/spr_tiro/spr_tiro.yy",},
     {"name":"spr_logoima","order":2,"path":"sprites/spr_logoima/spr_logoima.yy",},
     {"name":"spr_hitbox","order":4,"path":"sprites/spr_hitbox/spr_hitbox.yy",},
     {"name":"rm_game","order":13,"path":"rooms/rm_game/rm_game.yy",},
