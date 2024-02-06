@@ -26,7 +26,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"fnt_credts","order":1,"path":"fonts/fnt_credts/fnt_credts.yy",},
-    {"name":"obj_hitbox","order":1,"path":"objects/obj_hitbox/obj_hitbox.yy",},
+    {"name":"obj_arma","order":1,"path":"objects/obj_arma/obj_arma.yy",},
     {"name":"obj_transition","order":1,"path":"objects/obj_transition/obj_transition.yy",},
     {"name":"Outline Documentation","order":2,"path":"notes/Outline Documentation/Outline Documentation.yy",},
     {"name":"init","order":1,"path":"scripts/init/init.yy",},
@@ -40,7 +40,7 @@
     {"name":"spr_colisor","order":1,"path":"sprites/spr_colisor/spr_colisor.yy",},
     {"name":"spr_tiro","order":5,"path":"sprites/spr_tiro/spr_tiro.yy",},
     {"name":"spr_logoima","order":2,"path":"sprites/spr_logoima/spr_logoima.yy",},
-    {"name":"spr_hitbox","order":4,"path":"sprites/spr_hitbox/spr_hitbox.yy",},
+    {"name":"spr_arma","order":4,"path":"sprites/spr_arma/spr_arma.yy",},
     {"name":"rm_game","order":13,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"obj_colisor1","order":2,"path":"objects/obj_colisor1/obj_colisor1.yy",},
     {"name":"transition","order":2,"path":"scripts/transition/transition.yy",},

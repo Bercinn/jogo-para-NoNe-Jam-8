@@ -1,6 +1,13 @@
 hor_speed = 0;
 ver_speed = 0;
 
+//criando a arma
+weapon_my = instance_create_layer(x, y, "weapon", obj_arma);
+weapon_my.weapon_id = self;
+
+//variavel controlando tiro
+global.atira_delay = 0;
+
 //variaveis de movimento
 cima = 0; //direções
 baixo = 0; //direções
@@ -11,38 +18,42 @@ move_speed = 3; //velocidade do player
 center_y = y - sprite_height/2;
 
 movement = function(){
-	attack_dir = point_direction(x, center_y, mouse_x, mouse_y);
 	
 	//movimento na horizontal
 	esq = keyboard_check(ord("D"));
 	dir = keyboard_check(ord("A"));
 	cima = keyboard_check(ord("W"));
 	baixo = keyboard_check(ord("S"));
-	attack = mouse_check_button_pressed(mb_left);
 	
 	hor_speed = (esq - dir) * move_speed; 
 	ver_speed = (baixo - cima) * move_speed;
 		///////////////
-	attack_func();
-};
 
-attack_delay = 0;
-attack_dir = 0;
-attack_func = function(){
-	//attack_delay--;
-	if(attack_delay <= 0){
-		if(attack){
-			
-			var _tirosx = x + lengthdir_x(16, attack_dir);
-			var _tirosy = y + lengthdir_y(16, attack_dir);
-			
-			var _tiros = point_direction(x, y, mouse_x, mouse_y);
-			image_angle = _tiros;
-			  instance_create_layer(_tirosx, _tirosy, "instances", obj_tiro);
-			//attack_delay = room_speed/2;
-		}
-	}
 };
+atrirar = function(){
+
+//mostrando posição da arma
+with(weapon_my)
+ {
+	 if(mouse_check_button_pressed(mb_left))
+	{ 
+		if(global.atira_delay == 1)//checando se o timer for igual a 1
+	 {
+		//instaciando bala
+		project = instance_create_layer(x,y, "Projeteis", obj_tiro);
+		
+		//caracteristicas da bala
+	    project.sprite_index = spr_tiro
+		project.image_angle = weapon_dir;
+		project.direction = weapon_dir;
+		project.speed = 8;	
+		global.atira_delay -= 13; //resetando o timer
+	}
+	 }
+    }
+}
+	
+
 
 collision = function(){
 	if(place_meeting(x+hor_speed, y, obj_solid)){
