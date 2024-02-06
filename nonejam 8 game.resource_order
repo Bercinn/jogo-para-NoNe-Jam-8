@@ -13,6 +13,7 @@
     {"name":"Credits","order":6,"path":"folders/Objects/Credits.yy",},
     {"name":"Entities","order":1,"path":"folders/Objects/Entities.yy",},
     {"name":"Intro","order":5,"path":"folders/Objects/Intro.yy",},
+    {"name":"Projeteis","order":7,"path":"folders/Objects/Projeteis.yy",},
     {"name":"Outline System","order":14,"path":"folders/Outline System.yy",},
     {"name":"Particle Systems","order":13,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":3,"path":"folders/Paths.yy",},
@@ -22,7 +23,6 @@
     {"name":"Shaders","order":5,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
-    {"name":"Projeteis","order":7,"path":"folders/Objects/Projeteis.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"fnt_credts","order":1,"path":"fonts/fnt_credts/fnt_credts.yy",},
